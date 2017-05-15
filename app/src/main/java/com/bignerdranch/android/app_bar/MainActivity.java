@@ -1,5 +1,6 @@
 package com.bignerdranch.android.app_bar;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -27,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
         switch (item.getItemId()) {
             case R.id.action_settings:
                 // User chose the "Settings" item, show the app settings UI...
+                Intent i = new Intent(this, SonActivity.class);
+                startActivity(i);
                 return true;
 
             case R.id.action_favorite:
