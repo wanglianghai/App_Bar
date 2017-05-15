@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">App_Bar</string>
+    <string name="title_activity_parent">parent</string>
+    <string name="title_activity_child">child</string>
     <string name="action_favorite">favorite</string>
+    <string name="action_search">search</string>
     <string name="action_settings">settings</string>
 </resources>
